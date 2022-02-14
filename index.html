@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Sit Gym</title>
+      <title>Site Gym</title>
       <link rel="stylesheet" href="style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +18,10 @@
 
       <nav>
             <ul>
-                  <li><a href="" class="item-navigation">Accueil</a></li>
-                  <li><a href="" class="item-navigation">Matériel</a></li>
-                  <li><a href="" class="item-navigation">Tarifs</a></li>
-                  <li><a href="" class="item-navigation">Contact</a></li>
+                  <li><a href="#home" class="item-navigation">Accueil</a></li>
+                  <li><a href="#equipements" class="item-navigation">Matériel</a></li>
+                  <li><a href="#tarifs" class="item-navigation">Tarifs</a></li>
+                  <li><a href="#contact" class="item-navigation">Contact</a></li>
             </ul>
       </nav>
       
@@ -31,7 +31,7 @@
       <div class="accueil" id="home">
 
             <div class="bloc-accueil-gauche">
-                  <h1>GYM PHEONIX</h1>
+                  <h1>GYM PH&OElig;NIX</h1>
                   <p>Dépassez vous limites</p>
                   <p>Entrainez-vous</p>
                   <p>Progressez</p>
@@ -243,6 +243,38 @@
             
 
       </section>
+
+
+      <!-- SECTION 6 CONTACT -->
+
+      <h2 class="titre-contact">Contactez-nous</h2>
+
+      <section id="contact">
+
+            <form>
+
+                  <label for="prenom">Prénom</label>
+                  <input type="text" id="prenom">
+
+                  <label for="nom">Nom</label>
+                  <input type="text" id="nom">
+
+                  <label for="text-area">Votre message</label>
+                  <textarea id="text-area"></textarea>
+
+                  <button class="form-btn" type="submit">Envoyer</button>
+
+            </form>
+
+      </section>
+
+      <!-- Footer -->
+
+
+      <footer>
+            <p>© GymPh&oelig;nix - Tous droits réservés </p>
+      </footer>
+
 
 
       <script src="app.js"></script>
